@@ -1,1 +1,3 @@
 # U1-Tarea3
+##Sistema para guardar bandas musicales
+La tarea asignada consistía en crear un CRUD, como sabemos este es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en inglés: Create, Read, Update and Delete) para un proyecto (Sistema) que registre información sobre bandas musicales. La idea como tal es bastante sencilla pues lo que se muestra en el repositorio no es más que eso es un sistema nos permite añadir a una lista diferentes tipos de bandas, con sus géneros y demás información, también tenemos las opciones de ver, eliminar y actualizar, todo esto creado a través del programa de C# y otros componentes dentro del mismo que nos ayudan a la creación de una aplicación web.
