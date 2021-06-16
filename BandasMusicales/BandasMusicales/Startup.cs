@@ -63,7 +63,7 @@ namespace BandasMusicales
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Bandas}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

@@ -1,0 +1,61 @@
+﻿@model BandasMusicales.Models.Banda
+
+@{
+    ViewData["Title"] = "Ver detalles de Banda";
+}
+
+<h2>Detalles de la Banda Musical</h2>
+<hr />
+
+<div>
+    <h4>Nombre de la Banda:</h4>
+    <hr />
+
+    <dl class="row">
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BandaName)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Genero Musical:</h4>
+    <hr />
+
+    <dl class="row">
+       
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BandaGenero)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Cantidad de Mienbros en la Banda::</h4>
+    <hr />
+
+    <dl class="row">
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BandaCant)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Cantidad de Canciones de la Banda:</h4>
+    <hr />
+
+    <dl class="row">
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BandaCantCanciones)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model.BandaId">Modificar Datos</a>
+    <a asp-action="Index" class="btn btn-success">Volver</a>
+</div>
